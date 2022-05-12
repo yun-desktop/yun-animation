@@ -54,7 +54,6 @@ animation.to(element1)
   */
 animation.to(element2)
 				 .end(() => {
-  					console.log('ending...')
   					// also use other animation.
   					// 当然也可以使用其它动画续接。
   					defineAnimation({left: '10px'}).to(element2)

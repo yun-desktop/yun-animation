@@ -54,7 +54,6 @@ export default function defineAnimation(animation, durationTime = 2, runCount = 
         element.style[key] = animation[key]
       })
       head.removeChild(style)
-      console.log(keyframeName, animationList)
       animationList = animationList.filter(name => name !== keyframeName)
       completion?.()
       element.removeEventListener('animationend', animationendCallback)
