@@ -1,0 +1,16 @@
+{
+  "name": "yun-animation",
+  "version": "0.0.2",
+  "main": "packages/main.js",
+  "repository": "https://github.com/yun-desktop/yun-animation.git",
+  "author": "yipeidong <1315103511@qq.com>",
+  "license": "MIT",
+  "files": ["packages"],
+  "keywords": [
+    "animation",
+    "small",
+    "easy",
+    "js",
+    "fast"
+  ]
+}
