@@ -1,13 +1,22 @@
 {
   "name": "yun-animation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "packages/main.js",
   "repository": "https://github.com/yun-desktop/yun-animation.git",
   "author": "yipeidong <1315103511@qq.com>",
   "license": "MIT",
-  "files": ["packages"],
+  "files": [
+    "packages"
+  ],
+  "types": "packages/main.d.ts",
   "keywords": [
     "animation",
     "yun"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc src/main.ts --declaration --outDir packages --target es2016"
+  }
 }

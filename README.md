@@ -53,11 +53,11 @@ animation.to(element1)
   * 动画结束回调。
   */
 animation.to(element2)
-				 .end(() => {
-  					// also use other animation.
-  					// 当然也可以使用其它动画续接。
-  					defineAnimation({left: '10px'}).to(element2)
-					})
+  .end(() => {
+    // also use other animation.
+    // 当然也可以使用其它动画续接。
+    defineAnimation({left: '10px'}).to(element2)
+	})
 
 /** duration time.(default 2s)
   * 动画持续时间。(默认2秒)
