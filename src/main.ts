@@ -1,13 +1,13 @@
+import { Properties } from 'csstype'
+
 /** running animation list */
 let animationList: string[] = []
-
 /**
  * Define Animation
  * @param {object} animation animation description
  * @param {number} durationTime animation duration time
  */
-export default function defineAnimation(animation: StyleSheet, durationTime = 2, runCount = 1) {
-
+export default function defineAnimation(animation: Properties, durationTime = 2, runCount = 1) {
   /** make keyframe template */
   const keyframesTemplate = `
     {

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./packages",
+    "target": "ES2016",
+    "module": "ES2015",
+    "lib": ["ES2016", "DOM"],
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "yun-animation",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "packages/main.js",
   "repository": "https://github.com/yun-desktop/yun-animation.git",
   "author": "yipeidong <1315103511@qq.com>",
@@ -17,6 +17,9 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "build": "tsc src/main.ts --declaration --outDir packages --target es2016"
+    "build": "tsc"
+  },
+  "dependencies": {
+    "csstype": "^3.1.0"
   }
 }
